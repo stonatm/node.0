@@ -16,4 +16,4 @@ parameters:
 
 **delay_ms_out** - fade-out step time in *ms*
 
-Total fade-in time equals **11 x delay_ms_in** *ms*
+Total breathe effect time equals **(11 x delay_ms_in)+(11 x delay_ms_out)** *ms*

@@ -1,6 +1,6 @@
 
 # node.0
-Short &amp; simple nodemcu lua scripts
+Short &amp; simple Lua scripts for **Esp8266 NodeMcu**
 
 ## breathe.lua
 

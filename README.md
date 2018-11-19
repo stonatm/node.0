@@ -25,6 +25,7 @@ function ds2434_setup( data_pin )
 ```
 This function initialise one wire on selected pin.
 parameters:
+
 **data_pin** - pin number where is connected ds2434 DQ
 
 ```
@@ -34,7 +35,7 @@ This function send convert command to ic for start measuring temperature
 
 parameters:
 
-**data_pin** - pin number where is connected s
+**data_pin** - pin number where is connected ds2434 DQ
 
 ```
 function ds2434_read( data_pin )

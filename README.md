@@ -24,6 +24,7 @@ Functions for read only temperature from ds2434, other functions of this ic are 
 function ds2434_setup( data_pin )
 ```
 This function initialise one wire on selected pin.
+
 parameters:
 
 **data_pin** - pin number where is connected ds2434 DQ
@@ -31,7 +32,7 @@ parameters:
 ```
 function ds2434_convert( data_pin )
 ```
-This function send convert command to ic for start measuring temperature
+This function send convert command to ic for start measuring temperature.
 
 parameters:
 
@@ -40,3 +41,10 @@ parameters:
 ```
 function ds2434_read( data_pin )
 ```
+This function send read command to ic for read temperature
+
+parameters:
+
+**data_pin** - pin number where is connected ds2434 DQ
+
+This function return measured temperature.
